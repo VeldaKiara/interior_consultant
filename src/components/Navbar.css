@@ -1,0 +1,16 @@
+
+.nav-item {
+    padding: 10px;
+}
+.nav-items {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+    
+}
+
+.nav {
+    padding: 76px;
+    align-items: center;
+}
