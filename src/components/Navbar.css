@@ -1,16 +1,33 @@
 
+.nav {
+    padding: 40px;
+    align-items: center;
+}
 .nav-item {
-    padding: 10px;
+    padding: 15px;
+    
 }
 .nav-items {
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
     padding-top: 10px;
+   
     
 }
+.nav-item-h{
+    border-bottom: 1px solid #ffffff;
+    margin-right: 8em;   
+}
+.nav-item-c{
+    margin-right: 8em;   
 
-.nav {
-    padding: 76px;
-    align-items: center;
+}
+.nav-item-a{
+    margin-right: 8em;   
+
+}
+nav-item-co{
+    margin-right: 8em;   
+
 }
