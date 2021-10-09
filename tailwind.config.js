@@ -21,7 +21,9 @@ module.exports = {
     }
   },
   fontFamily: {
-    'serif': 'Crimson Pro',
+    'serif': 'Crimson Pro, Lora', 
+    'sans': 'Montserrat',
+    
   },
   
 }
