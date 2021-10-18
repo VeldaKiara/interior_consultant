@@ -2,6 +2,7 @@ import './App.css';
 import {
   Nav,
   Midbody,
+  Midbodyleft,
 } from "./components";
 import Routes from "./routes/Routes";
 const App =() => {
@@ -10,6 +11,7 @@ const App =() => {
       <Routes />
       <Nav />
       <Midbody />
+      <Midbodyleft />
        </div>  
   );
 }

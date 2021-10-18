@@ -1,0 +1,17 @@
+.image-1{
+    margin-top: -30em;
+    margin-right: 4em;
+    height:80%;
+    width:45%;
+    display:flex;
+    float: right;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    
+}
+.image-2{
+    display:flex;
+    float:right;
+    
+    
+}
