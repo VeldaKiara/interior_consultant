@@ -3,6 +3,7 @@ import {
   Nav,
   Midbody,
   Midbodyleft,
+  Footer,
 } from "./components";
 import Routes from "./routes/Routes";
 const App =() => {
@@ -12,6 +13,7 @@ const App =() => {
       <Nav />
       <Midbody />
       <Midbodyleft />
+      <Footer />
        </div>  
   );
 }

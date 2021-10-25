@@ -12,12 +12,12 @@ const Midbodyleft = () => {
         <img src={photo2} alt="i"></img>
       </div> */}
       <div className="profile">
-            <div class="card bg-black bg-cover">
+            <div className="card bg-black bg-cover">
               <img src={photo2} class="alt"alt="Avatar"></img>
-                  <div class="container">
-                       <h4 class="txt"> aliza webber</h4> 
-                           <h5 class="part"> Interior designer </h5> 
-                                 <p> Designed in 2020 by <br/>
+                  <div className="container">
+                       <h4 className="txt font-sans"> aliza webber</h4> 
+                           <h5 className="part font-sans"> Interior designer </h5> 
+                                 <p className="p fonts-serif"> Designed in 2020 by <br/>
                                         Aliza Webber </p>
           
                   </div>
