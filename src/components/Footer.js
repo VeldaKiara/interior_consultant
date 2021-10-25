@@ -1,7 +1,8 @@
+import "../assets/styles/Footer.css";
 const Footer = () => {
     return (
-        <div>
-        <p className= "text-white py-48" > created by username - devChallenges.io </p> 
+        <div className="footer">
+        <p className= "footer-ft sticky bottom-0" > created by Velda Kiara - devChallenges.io </p> 
         </div>
     );
 }

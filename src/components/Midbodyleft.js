@@ -9,7 +9,7 @@ const Midbodyleft = () => {
           <img src={photo1} alt="main"></img>
       </div>
       <div className="profile">
-            <div className="card bg-black bg-cover">
+            <div className="card bg-black ">
               <img src={photo2} className="alt"alt="Avatar"></img>
                   <div className="container">
                        <h4 className="txt font-sans "> aliza webber</h4> 

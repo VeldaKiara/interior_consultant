@@ -8,7 +8,7 @@ import {
 import Routes from "./routes/Routes";
 const App =() => {
   return (
-    <div className="App min-h-screen bg-black bg-cover">
+    <div className="App min-h-screen bg-black ">
       <Routes />
       <Nav />
       <Midbody />
