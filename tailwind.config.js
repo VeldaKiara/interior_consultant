@@ -14,7 +14,7 @@ module.exports = {
   plugins: [],
   colors: {
     black: {
-      DEFAULT:'#181719',
+      DEFAULT:'#181719', 
   },
     white : {
       DEFAULT:'#FFFFFF',
