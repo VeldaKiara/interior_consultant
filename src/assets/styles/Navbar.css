@@ -3,8 +3,13 @@
     padding: 40px;
     align-items: center;
 }
+.nav-tp{
+    margin-left: 4em;
+}
 .nav-item {
     padding: 15px;
+    margin-top:-1.2em;
+    
     
 }
 .nav-items {

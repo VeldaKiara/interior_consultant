@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div>
       <div className="flex nav">
-        <div className="text-white font-serif text-sm border-4 h-12 w-40 text-center pt-2 flex-none">
+        <div className=" nav-tp text-white font-serif text-sm border-4 h-12 w-40 text-center pt-2 flex-none">
           THIS INTERIOR
         </div>
         <div className = "text-white nav-items font-serif font-bold text-sm flex flex-row flex-grow "> 
