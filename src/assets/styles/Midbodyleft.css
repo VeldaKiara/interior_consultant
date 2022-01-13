@@ -2,17 +2,17 @@
 .image-1 {
   margin-top: -30em;
   margin-right: 4em;
-  height: 80%;
-  width: 60%;
+  height: 70%;
+  width: 50%;
   display: flex;
   float: right;
   transform: matrix(-1, 0, 0, 1, 0, 0);
   -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .card {
-  width: 30em;
-  margin-top: 12.5%;
-  margin-left: 60%;
+  width: 26em;
+  margin-top: 5%;
+  margin-left: 68%;
   z-index: 2;
   position: absolute;
   background-color: #181719;
@@ -33,15 +33,15 @@
 }
 .txt {
   float: right;
-  margin-right: 17em;
-  margin-top: 0.7em;
+  margin-right: 14em;
+  margin-top: 0.5em;
   font-weight: bold;
   color:rgba(255, 255, 255, 1);
   font-size:16px;
 }
 .part {
   float: right;
-  margin-right: 18.7em;
+  margin-right: 15.2em;
   margin-top: 0.2em;
   color:rgba(130, 130, 130, 1); 
   font-size:14px; 
@@ -50,7 +50,7 @@
 .p {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 3.5em;
+  margin-top: 3em;
   padding-bottom: 0.8em; 
   font-size:26px;
 }
