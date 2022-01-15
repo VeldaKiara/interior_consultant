@@ -36,3 +36,33 @@ nav-item-co{
     margin-right: 8em;   
 
 }
+/* .mobile-menu {
+    display: none;
+  } */
+@media (max-width: 600px) {
+.mobile nav-items{
+    right: -100%;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    
+}
+.nav-item-h{
+    border-bottom: 2px solid #ffffff;
+    margin-right: 8em;   
+}
+.nav-item-c{
+    margin-right: 8em;   
+
+}
+.nav-item-a{
+    margin-right: 8em;   
+
+}
+nav-item-co{
+    margin-right: 8em;   
+
+}
+
+
+}
