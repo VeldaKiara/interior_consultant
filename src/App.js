@@ -4,6 +4,7 @@ import {
   Midbody,
   Midbodyleft,
   Footer,
+  Burger,
 } from "./components";
 import Routes from "./routes/Routes";
 const App =() => {
