@@ -33,9 +33,9 @@ nav-item-co{
     margin-right: 8em;   
 
 }
-/* .mobile-menu {
+.mobile-menu {
     display: none;
-  }  */
+  } 
 
 
 @media (max-width: 648px) { 
