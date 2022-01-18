@@ -66,5 +66,21 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
     -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
   }
-  
+ .card{
+  margin-top: 35%;
+  margin-left: 18%;
+  width: 22.5em;
+ }
+.txt{
+margin-top: 0.7em;
+margin-right: 11em;
+float:right;
+}
+.part{
+  margin-top:-0.2em;
+  margin-right: 12em;
+}
+.p {
+margin-top: 2.5em;
+}
 }
