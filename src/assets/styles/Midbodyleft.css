@@ -57,10 +57,10 @@
 
 @media (max-width: 648px) {
   .image-1 {
-    margin-top: 1em;
-    margin-right: 4em;
-    height: 70%;
-    width: 50%;
+    margin-top:-6em;
+    margin-right: 1.5em;
+    height: 90%;
+    width: 90%;
     display: flex;
     float: right;
     transform: matrix(-1, 0, 0, 1, 0, 0);
