@@ -14,7 +14,8 @@ const Nav = () => {
         </div>
         <div className = "text-white nav-items font-serif font-bold text-sm flex flex-row flex-grow "> 
           <Router>
-            <div className = {click ? "nav-item" : "mobile nav-items"}>
+            {/* <div className = {click ? "nav-item" : "mobile nav-items"}> */}
+            <div className = {click ? " nav-item " : "nav-items active"}>
            <div className="nav-item  nav-item-h " onClick={closeMobileMenu}> <NavLink to="/"> Home </NavLink> </div>
 
            <div className="nav-item nav-item-c"onClick={closeMobileMenu}><NavLink to="/"> Collection </NavLink> </div>
@@ -26,9 +27,11 @@ const Nav = () => {
             </Router>
               <div className="mobile-menu block " onClick={handleClick}>
                       {click ? (
-                        <XIcon />
+                         <XIcon size={24}/>
+                         
                       ) : (
-                        <ThreeBarsIcon/>
+                       
+                        <ThreeBarsIcon size={24}/>
                       )}
                     </div>
         </div>

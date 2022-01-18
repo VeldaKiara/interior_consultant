@@ -54,3 +54,17 @@
   padding-bottom: 0.8em; 
   font-size:26px;
 }
+
+@media (max-width: 648px) {
+  .image-1 {
+    margin-top: 1em;
+    margin-right: 4em;
+    height: 70%;
+    width: 50%;
+    display: flex;
+    float: right;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  
+}
