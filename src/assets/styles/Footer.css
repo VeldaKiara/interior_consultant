@@ -2,11 +2,12 @@
     padding-top:28em;
     padding-bottom:2em;
     padding-left:44em;
-    
-
 }
 .footer-ft{
-    color: rgba(169, 169, 169, 1);
-    
-    
+    color: rgba(169, 169, 169, 1);   
+}
+@media (max-width: 648px) {
+.footer{
+    padding-left:6em; 
+}
 }
