@@ -15,6 +15,7 @@
     
 }
 .nav-item {
+    cursor: pointer;
     padding: 15px;  
     margin-right: 10px;
 }
@@ -26,36 +27,14 @@
     border-bottom: 2px solid #fff;
 }
 
-/* .nav-item-h{
-    border-bottom: 2px solid #ffffff;
-    margin-right: 8em;   
-}
-.nav-item-c{
-    margin-right: 8em;   
-
-}
-.nav-item-a{
-    margin-right: 8em;   
-
-}
-nav-item-co{
-    margin-right: 8em;   
-
-} */
-.mobile-menu {
-    display: none;
-  } 
-  .mobile {
+.mobile {
     display: none;
   }
   
-  .desktop {
+.desktop {
     display: flex;
   }
 @media only screen and (max-width: 768px) { 
-.mobile-menu{
-    display: block;
-}
 .nav-items{
     display: block;
 }
@@ -66,7 +45,7 @@ nav-item-co{
     display: flex;
   }
 
-  .desktop {
+.desktop {
     display: none;
   }
 }
