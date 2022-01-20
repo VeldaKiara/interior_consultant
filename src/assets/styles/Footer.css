@@ -1,7 +1,8 @@
 .footer{
     padding-top:28em;
     padding-bottom:2em;
-    padding-left:44em;
+    /* padding-left:44em; */
+    text-align: center;
 }
 .footer-ft{
     color: rgba(169, 169, 169, 1);   
