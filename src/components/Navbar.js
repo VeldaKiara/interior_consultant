@@ -26,7 +26,7 @@ const Nav = () => {
           </div>   
             </div>
           </Router>
-          <div className="mobile" onClick={handleMenu}>
+          <div className="mobile edge" onClick={handleMenu}>
             {showMenu ? <XIcon size={24} /> : <ThreeBarsIcon size={24} />}
           </div>
         </div>
