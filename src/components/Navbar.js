@@ -17,16 +17,16 @@ const Nav = () => {
         </div>
         <div className="text-white nav-items font-serif font-bold text-sm flex flex-row flex-grow ">
           <Router>
-          <div className="nav-items">  
-          <div className={ showMenu ? "mobile" : "desktop" }>   
-          <NavLink  exact to="/" className="nav-item" activeClassName="nav-item-active"> Home </NavLink>
-          <NavLink exact to="/collection" className="nav-item" activeClassName="nav-item-active"> Collection </NavLink>
-          <NavLink exact to="/about" className="nav-item" activeClassName="nav-item-active"> About </NavLink>
-          <NavLink exact to="/contact" className="nav-item" activeClassName="nav-item-active"> Contact </NavLink>
+          <div className={ showMenu ? "mobile bg-cover" : "desktop" }>   
+          <div className="nav-items bg-cover">  
+          <NavLink  exact to="/" className="nav-item text-white " activeClassName="nav-item-active"> Home </NavLink>
+          <NavLink exact to="/collection" className="nav-item text-white " activeClassName="nav-item-active"> Collection </NavLink>
+          <NavLink exact to="/about" className="nav-item text-white " activeClassName="nav-item-active"> About </NavLink>
+          <NavLink exact to="/contact" className="nav-item text-white " activeClassName="nav-item-active"> Contact </NavLink>
           </div>   
             </div>
           </Router>
-          <div className="mobile block " onClick={handleMenu}>
+          <div className="mobile" onClick={handleMenu}>
             {showMenu ? <XIcon size={24} /> : <ThreeBarsIcon size={24} />}
           </div>
         </div>

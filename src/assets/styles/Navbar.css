@@ -34,17 +34,31 @@
 .desktop {
     display: flex;
   }
+  
+
 @media only screen and (max-width: 768px) { 
 .nav-items{
-    display: block;
-}
-.nav-item{
-    display: block;
+   display: flex;
+   flex-direction: column;  
+   align-items: center;  
+   flex-direction: column;
+   justify-content: center;  
+   color:white;
 }
 .mobile {
     display: flex;
-  }
-
+    top: 15px;
+    right: 20px;
+    z-index: 3;
+    position: absolute;
+    height: calc(100em - 15px);
+    width:100%;
+    opacity: 0.7;
+    background-color:black;
+    justify-content: center;
+   
+    
+}
 .desktop {
     display: none;
   }
